@@ -14,7 +14,7 @@ function Articles(props) {
                 </thead>
                 <tbody>
                 {props.articles.map((article, i) => (
-                    <tr key={i} data-testid="article" key="article-index">
+                    <tr key={i} data-testid="article">
                         <td data-testid="article-title">{article.title}</td>
                         <td data-testid="article-upvotes">{article.upvotes}</td>
                         <td data-testid="article-date">{article.date}</td>
